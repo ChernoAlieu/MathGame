@@ -4,7 +4,7 @@
 	{
 		DivisionEngine division = new();
 
-		internal void selectDivisionLevel()
+		internal void selectDifficultyLevel()
 		{
 			var isGameOn = true;
 			do

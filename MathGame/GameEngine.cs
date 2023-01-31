@@ -18,13 +18,13 @@ namespace MyFirstProgram
 
 		internal void MultiplicationGame(string message)
 		{
-			AdditionLevels level = new AdditionLevels();
+			MultiplicationLevels level = new MultiplicationLevels();
 			level.selectDifficultyLevel();
 		}
 
 		internal void DivisionGame(string message)
 		{
-			AdditionLevels level = new AdditionLevels();
+			DivisionLevels level = new DivisionLevels();
 			level.selectDifficultyLevel();
 		}
 		
