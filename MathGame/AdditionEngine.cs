@@ -7,9 +7,7 @@ namespace MathGame
 		internal void EasyAdditionGame()
 		{
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
-				Console.Clear();
+			Console.Clear();
 				var random = new Random();
 				var score = 0;
 
@@ -41,18 +39,21 @@ namespace MathGame
 
 				}
 
+
 				Console.WriteLine(
 					$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Addition);
-			}
+
+			
 		}
+
+	
 
 		internal void MediumAdditionGame()
 		{
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
+			
 				Console.Clear();
 				var random = new Random();
 				var score = 0;
@@ -89,14 +90,13 @@ namespace MathGame
 					$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Addition);
-			}
+			
 		}
 
 		internal void HardAdditionGame()
 		{
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
+			
 				Console.Clear();
 				var random = new Random();
 				var score = 0;
@@ -133,7 +133,7 @@ namespace MathGame
 					$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Addition);
-			}
+			
 		}
 	}
 }

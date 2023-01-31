@@ -7,9 +7,7 @@ namespace MathGame
 		internal void EasySubtractionGame()
 		{
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
-				Console.Clear();
+			Console.Clear();
 				var random = new Random();
 				var score = 0;
 
@@ -46,15 +44,13 @@ namespace MathGame
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Subtraction);
 			}
-		}
+		
 
 		internal void MediumSubtractionGame()
 		{
 			Console.Clear();
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
-				Console.Clear();
+			Console.Clear();
 				var random = new Random();
 				var score = 0;
 
@@ -91,16 +87,14 @@ namespace MathGame
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Subtraction);
 
-			}
+			
 		}
 
 		internal void HardSubtractionGame()
 		{
 			Console.Clear();
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
-				Console.Clear();
+			Console.Clear();
 				var random = new Random();
 				var score = 0;
 
@@ -136,7 +130,7 @@ namespace MathGame
 					$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Subtraction);
-			}
+			
 		}
 	}
 }

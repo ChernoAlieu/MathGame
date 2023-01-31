@@ -9,8 +9,7 @@ namespace MathGame
 		internal void EasyDivisionGame()
 		{
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
+			
 				Console.Clear();
 				var random = new Random();
 				var score = 0;
@@ -47,15 +46,14 @@ namespace MathGame
 					$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Division);
-			}
+			
 		}
 	
 
 		internal void MediumDivisionGame()
 			{
 				Helpers.SetNumberOfQuestions();
-				for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-				{
+				
 					Console.Clear();
 					var random = new Random();
 					var score = 0;
@@ -92,15 +90,14 @@ namespace MathGame
 						$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 					Console.ReadLine();
 					Helpers.AddToHistory(score, GameType.Division);
-				}
+				
 			}
 		
 
 		internal void HardDivisionGame()
 		{
 			Helpers.SetNumberOfQuestions();
-			for (int i = 0; i < Helpers.GetNumberOfQuestions(); i++)
-			{
+			
 				Console.Clear();
 				var random = new Random();
 				var score = 0;
@@ -137,7 +134,7 @@ namespace MathGame
 					$"Game over. Your final score is {score}. Press any key to go back to main menu.");
 				Console.ReadLine();
 				Helpers.AddToHistory(score, GameType.Division);
-			}
+			
 		}
 	}
 }
