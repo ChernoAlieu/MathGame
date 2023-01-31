@@ -1,12 +1,7 @@
 ﻿using MyFirstProgram.Models;
 using MyFirstProgram;
-<<<<<<< HEAD
 
-=======
-using System;
-using System.Collections.Generic;
-using System.Linq;
->>>>>>> 558607009361fbe53bbf99b90713a53a9d57458a
+
 namespace MathGame
 {
 	internal class DivisionEngine
